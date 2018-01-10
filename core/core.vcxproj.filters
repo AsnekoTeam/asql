@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{abe466cb-f061-4fa8-97e8-772480ae0d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataValue">
+      <UniqueIdentifier>{0bb78baf-0de1-4227-b458-aca31e0848cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{86f9231c-cbb7-4b16-b8ed-cc24758a03ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Query">
+      <UniqueIdentifier>{55d0088b-93a1-4ccc-98d1-d0b8560ba295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{93652233-52fe-4717-9efc-b9f69ec364e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\Page">
+      <UniqueIdentifier>{1562ed23-911d-4047-9d03-b2170c9039ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{7eeb1595-b20c-4d82-8716-caf3f25d1ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\Model">
+      <UniqueIdentifier>{5089bf1a-ef23-44a8-a2b9-8f3dc51a3a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\State">
+      <UniqueIdentifier>{b0f4560d-8ba5-4b1b-951a-78aac1c41b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InnerFunction">
+      <UniqueIdentifier>{b461bcdd-b0d2-4803-b540-78f47ba84660}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataValue.h">
+      <Filter>DataValue</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Accessor.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultSet.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="IdPage.h">
+      <Filter>IO\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPage.h">
+      <Filter>IO\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="TypePage.h">
+      <Filter>IO\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="TablePage.h">
+      <Filter>IO\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="Page.h">
+      <Filter>IO\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="ASql.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputableVal.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputeResult.hpp">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>IO\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>IO\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPage.h">
+      <Filter>IO\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryTree.h">
+      <Filter>Query</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>Parser\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Transfer.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="innerfunction.h">
+      <Filter>InnerFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Column.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataValue.cpp">
+      <Filter>DataValue</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>Query</Filter>
+    </ClCompile>
+    <ClCompile Include="Accessor.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultSet.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="IdPage.cpp">
+      <Filter>IO\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPage.cpp">
+      <Filter>IO\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Page.cpp">
+      <Filter>IO\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="TablePage.cpp">
+      <Filter>IO\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="TypePage.cpp">
+      <Filter>IO\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="ASql.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputableVal.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>IO\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>IO\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPage.cpp">
+      <Filter>IO\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryTree.cpp">
+      <Filter>Query</Filter>
+    </ClCompile>
+    <ClCompile Include="state.cpp">
+      <Filter>Parser\State</Filter>
+    </ClCompile>
+    <ClCompile Include="innerfunction.cpp">
+      <Filter>InnerFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Column.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

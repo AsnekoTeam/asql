@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="export">
+      <UniqueIdentifier>{578292af-7ca9-4feb-868f-28654d018e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{3da411ee-1a9b-4afe-a632-d493d249faa4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dll.cpp">
+      <Filter>export</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
